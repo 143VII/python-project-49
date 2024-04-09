@@ -3,6 +3,12 @@ install:
 
 brain-games:
 	poetry run brain-games
+	
+brain-gcd:
+	poetry run rain-gcd
+
+brain-progression:
+	poetry run brain-progression
 
 build:
 	poetry build
