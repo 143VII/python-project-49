@@ -1,4 +1,10 @@
 [tool.poetry]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
@@ -25,3 +31,6 @@ brain-even = "brain_games.scripts.brain_even:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+
+[tool.poetry]
+repository = "https://github.com/143VII/python-project-49.git"
