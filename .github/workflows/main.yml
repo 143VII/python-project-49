@@ -13,8 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Добавьте шаги для сборки проекта, запуска тестов и т. д.
-
       - name: Upload coverage report to Code Climate
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
@@ -22,5 +20,5 @@ jobs:
           curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
           chmod +x ./cc-test-reporter
           ./cc-test-reporter before-build
-          # Здесь добавьте команду для отправки отчета о покрытии тестами в Code Climate
+          <a href="https://codeclimate.com/github/143VII/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1f35ab337939bff12086/test_coverage" /></a>
           ./cc-test-reporter after-build --exit-code $?
