@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/143VII/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/143VII/python-project-49/actions)
-![demo](https://th.bing.com/th/id/R.c6b3e26d3c7b3298e23b57a9fa916304?rik=wMf0Se%2bDODt88w&riu=http%3a%2f%2fwww.ddesignerr.com%2fwp-content%2fuploads%2f2012%2f05%2f029.gif&ehk=7xzygP11k8uERvbQeTwtiJT86CC5%2bR4djNJMKm6IciM%3d&risl=&pid=ImgRaw&r=0)
+![отчет][<a href="https://codeclimate.com/github/143VII/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1f35ab337939bff12086/test_coverage" /></a>]
 
 # Hexlet Code
 
