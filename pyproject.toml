@@ -1,4 +1,5 @@
 [tool.poetry]
+repository = "https://github.com/143VII/python-project-49.git"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: MIT License",
@@ -32,5 +33,4 @@ brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
-[tool.poetry]
-repository = "https://github.com/143VII/python-project-49.git"
+
