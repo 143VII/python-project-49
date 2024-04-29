@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-import math
-
-def ask_question(numbers, user_name):
-    gcd = math.gcd(*numbers)
-    user_answer = input(f"Question: What is the greatest common divisor of {numbers}?\nYour answer: ")
-    if int(user_answer) == gcd:
-        print("Correct!")
-        return True
-    else:
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{gcd}'.\nLet's try again, {user_name}!")
-        return False
+from brain_games.engine import ask_question_gcd
 
 def main():
     print("Welcome to the Brain Games!")
@@ -21,9 +11,11 @@ def main():
     correct_answers = 0
 
     for numbers in numbers_list:
-        if ask_question(numbers, user_name):
+        if ask_question_gcd(numbers, user_name):
+            print("Correct!")
             correct_answers += 1
         else:
+            print("That's wrong, let's try again!")
             correct_answers = 0
         if correct_answers == 3:
             print(f"Congratulations, {user_name}!")
