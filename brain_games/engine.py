@@ -1,26 +1,22 @@
 #!/usr/bin/env python3
-import math
 
-def ask_question(number, user_name):
-    user_answer = input(f"Question: {number}\nYour answer: ")
-    correct_answer = "yes" if number % 2 == 0 else "no"
-    return user_answer.lower() == correct_answer
+def run(game, game_rules):
+    print("Welcome to the Brain Games!")
+    user_name = input("May I have your name? ")
+    print(f"Hello, {user_name}!")
+    print(game_rules)
 
-def ask_question_gcd(numbers, user_name):
-    gcd = math.gcd(*numbers)
-    user_answer = input(f"Question: What is the greatest common divisor of {numbers}?\nYour answer: ")
-    return int(user_answer) == gcd
+    correct_answers = 0
+    while correct_answers < 3:
+        question, correct_answer = game()
+        print(f"Question: {question}")
+        user_answer = input("Your answer: ")
 
-def is_prime(n):
-    if n <= 1:
-        return False
-    elif n <= 3:
-        return True
-    elif n % 2 == 0 or n % 3 == 0:
-        return False
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
-            return False
-        i += 6
-    return True 
+        if user_answer == correct_answer:
+            print("Correct!")
+            correct_answers += 1
+        else:
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {user_name}!")
+            return
+
+    print(f"Congratulations, {user_name}!")

@@ -1,11 +1,15 @@
 install:
 	poetry install
 
-brain-games:
-	poetry run brain-games
+brain-even:
+	poetry run brain-even
+
+brain-calc:
+	poetry run brain-calc
+
 	
 brain-gcd:
-	poetry run rain-gcd
+	poetry run brain-gcd
 
 brain-progression:
 	poetry run brain-progression
