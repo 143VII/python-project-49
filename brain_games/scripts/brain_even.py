@@ -1,17 +1,8 @@
-#!/usr/bin/env python3
-
-import random
 from brain_games.engine import run
-
-def generate_round():
-    number = random.randint(1, 100)
-    question = str(number)
-    answer = 'yes' if number % 2 == 0 else 'no'
-    return question, answer
+from brain_games.games import even
 
 def main():
-    game_rules = "Answer 'yes' if the number is even, otherwise answer 'no'."
-    run(generate_round, game_rules)
+    run(even.generate_round, even.get_game_rules)
 
 if __name__ == "__main__":
     main()

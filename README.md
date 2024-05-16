@@ -1,7 +1,7 @@
-### Hexlet tests and linter status:
+### Hexlet tests and linter status:[![asciicast](https://asciinema.org/a/VyLFL5tcdazhdS3FqP4FKylR2.svg)](https://asciinema.org/a/VyLFL5tcdazhdS3FqP4FKylR2)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1f35ab337939bff12086/maintainability)](https://codeclimate.com/github/143VII/python-project-49/maintainability)
 [![Actions Status](https://github.com/143VII/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/143VII/python-project-49/actions)
-<a href="https://codeclimate.com/github/143VII/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1f35ab337939bff12086/test_coverage" /></a>
-[![asciicast](https://asciinema.org/a/VyLFL5tcdazhdS3FqP4FKylR2.svg)](https://asciinema.org/a/VyLFL5tcdazhdS3FqP4FKylR2)
+
 
 # Hexlet Code
 

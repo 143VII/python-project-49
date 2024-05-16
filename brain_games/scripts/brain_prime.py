@@ -1,30 +1,8 @@
-#!/usr/bin/env python3
-import random
 from brain_games.engine import run
-
-def is_prime(n):
-    if n <= 1:
-        return False
-    elif n <= 3:
-        return True
-    elif n % 2 == 0 or n % 3 == 0:
-        return False
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
-            return False
-        i += 6
-    return True
-
-def generate_round():
-    number = random.randint(1, 100)
-    question = str(number)
-    answer = 'yes' if is_prime(number) else 'no'
-    return question, answer
+from brain_games.games import prime
 
 def main():
-    game_rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    run(generate_round, game_rules)
+    run(prime.generate_round, prime.get_game_rules)
 
 if __name__ == "__main__":
     main()

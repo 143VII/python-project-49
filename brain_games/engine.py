@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-def run(game, game_rules):
+def run(game, get_game_rules):
     print("Welcome to the Brain Games!")
     user_name = input("May I have your name? ")
     print(f"Hello, {user_name}!")
-    print(game_rules)
+    print(get_game_rules())
 
     correct_answers = 0
     while correct_answers < 3:
