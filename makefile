@@ -1,5 +1,3 @@
-install:
-	poetry install
 
 brain-game:
 	poetry run brain-game
@@ -10,12 +8,11 @@ brain-even:
 brain-calc:
 	poetry run brain-calc
 
-brain-prime:
+brain-primes:
 	poetry run brain-prime
 	
 brain-progression:
 	poetry run brain-progression
-
 
 build:
 	poetry build
