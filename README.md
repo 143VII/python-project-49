@@ -1,4 +1,4 @@
-### Hexlet tests and linter status:[![asciicast](https://asciinema.org/a/VyLFL5tcdazhdS3FqP4FKylR2.svg)](https://asciinema.org/a/VyLFL5tcdazhdS3FqP4FKylR2)
+### Hexlet tests and linter status:[![asciicast](https://asciinema.org/a/sr38dO7nsQnxyJwU5vRoeMWkO.svg)](https://asciinema.org/a/sr38dO7nsQnxyJwU5vRoeMWkO)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1f35ab337939bff12086/maintainability)](https://codeclimate.com/github/143VII/python-project-49/maintainability)
 [![Actions Status](https://github.com/143VII/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/143VII/python-project-49/actions)
 
