@@ -1,3 +1,14 @@
+push:
+	git rush
+
+commit:
+	git commit -m "test"
+
+add:
+	git add .
+
+install:
+	poetry install
 
 brain-game:
 	poetry run brain-game
