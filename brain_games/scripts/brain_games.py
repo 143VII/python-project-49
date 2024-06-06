@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from brain_games.scripts.brain_game import main
+
 
 def main():
     print("Welcome to the Brain Games!")
@@ -7,4 +9,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
