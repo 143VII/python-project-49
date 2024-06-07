@@ -1,5 +1,5 @@
 push:
-	git rush
+	git push
 
 commit:
 	git commit -m "test"
