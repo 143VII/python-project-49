@@ -12,7 +12,7 @@ description = ""
 authors = ["1437 <ichigo8106gr@gmail.com>"]
 readme = "README.md"
 packages = [
-  { include = "brain_games" },
+  { include = "brain_game" },
 ]
 
 [tool.poetry.dependencies]
@@ -27,7 +27,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-brain-game = "brain_games.scripts.brain_game:main"
+brain-games = "brain_games.scripts.brain_game:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
