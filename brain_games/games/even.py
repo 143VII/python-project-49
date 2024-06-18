@@ -7,4 +7,4 @@ def generate_round():
     return question, answer
 
 def get_game_rules():
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
+    print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
