@@ -12,7 +12,7 @@ description = ""
 authors = ["1437 <ichigo8106gr@gmail.com>"]
 readme = "README.md"
 packages = [
-  { include = "brain_game" },
+  { include = "brain_games" },
 ]
 
 [tool.poetry.dependencies]
