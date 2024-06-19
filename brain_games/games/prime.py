@@ -1,5 +1,6 @@
 import random
 
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -14,11 +15,13 @@ def is_prime(n):
         i += 6
     return True
 
+
 def generate_round():
     number = random.randint(1, 100)
     question = str(number)
     answer = 'yes' if is_prime(number) else 'no'
     return question, answer
+
 
 def get_game_rules():
     return "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."

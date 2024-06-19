@@ -1,5 +1,6 @@
 import random
 
+
 def generate_round():
     start = random.randint(1, 10)
     step = random.randint(1, 10)
@@ -12,6 +13,7 @@ def generate_round():
 
     question = ' '.join(progression)
     return question, correct_answer
+
 
 def get_game_rules():
     return "What number is missing in the progression?"
