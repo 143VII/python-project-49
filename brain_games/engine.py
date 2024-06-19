@@ -16,7 +16,11 @@ def run(game, get_game_rules):
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {user_name}!")
+            error_message = (
+                f"'{user_answer}' is wrong answer ;(. Correct answer was "
+                f"'{correct_answer}'.\nLet's try again, {user_name}!"
+            )
+            print(error_message)
             return
 
     print(f"Congratulations, {user_name}!")
