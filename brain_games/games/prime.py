@@ -21,4 +21,4 @@ def generate_round():
     return question, answer
 
 def get_game_rules():
-    return "Answer 'yes' if given number is prime. Otherwise answer 'no'."
+    return "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
